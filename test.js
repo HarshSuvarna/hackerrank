@@ -1,7 +1,6 @@
-let apples = [2, 4, 5, 6];
-let o = {};
+let apples = [-2, 4, 5, 6];
 
-console.log(Object.keys(o));
-
-let birdCounts = Array(6).fill(0);
-console.log(birdCounts);
+if (Math.sign(apples[0])  === -1) {
+    console.log("in IF");
+}
+// console.log(Math.sign(3));
