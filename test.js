@@ -1,6 +1,7 @@
-let apples = [-2, 4, 5, 6];
+let apples = [-2, 10, 5, 6];
 
-if (Math.sign(apples[0])  === -1) {
-    console.log("in IF");
+if (Math.sign(apples[0]) === -1) {
+  console.log("in IF");
 }
-// console.log(Math.sign(3));
+console.log(apples.at(-1));
+// console.log(apples.sort((a, b) => a - b).indexOf(-2));
