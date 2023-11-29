@@ -1,4 +1,4 @@
-let apples = [-2, 10, 5, 6];
+let apples = [-2, 10, 5, 6, 9, 0, -8, -12];
 
 // if (Math.sign(apples[0]) === -1) {
 //   console.log("in IF");
@@ -16,4 +16,7 @@ let apples = [-2, 10, 5, 6];
 
 s = "nglaram";
 t = "anagram";
-console.log(s.split("").sort());
+// console.log(s.split("").sort());
+
+// apples.splice(0, 2, 8);
+console.log("apples :>> ", Math.round(13 / 5));
