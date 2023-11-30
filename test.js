@@ -19,4 +19,7 @@ t = "anagram";
 // console.log(s.split("").sort());
 
 // apples.splice(0, 2, 8);
-console.log("apples :>> ", Math.round(13 / 5));
+// console.log("apples :>> ", Math.round(13 / 5));
+
+let lsit = Array(10).fill();
+console.log("lsit :>> ", lsit);
